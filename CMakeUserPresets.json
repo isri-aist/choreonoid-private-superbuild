@@ -21,7 +21,7 @@
         {
             "name": "choreonoid",
             "displayName": "Choreonoid RelWithDebInfo (with tests)",
-            "configurePreset": "choreonoid-system",
+            "configurePreset": "choreonoid",
             "configuration": "RelWithDebInfo",
             "targets": [
                 "install"
