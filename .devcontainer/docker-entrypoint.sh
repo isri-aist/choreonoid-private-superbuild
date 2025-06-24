@@ -40,13 +40,13 @@ if command -v zsh >/dev/null 2>&1; then
   if [ "$#" -eq 0 ]; then
     exec zsh
   else
-    exec zsh "$@"
+    exec zsh -ic "$@"
   fi
 else
   echo "⚠️ zsh not found, defaulting to bash."
   if [ "$#" -eq 0 ]; then
     exec bash
   else
-    exec bash "@"
+    exec bash -ic "@"
   fi
 fi
