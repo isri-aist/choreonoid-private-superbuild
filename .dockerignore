@@ -8,6 +8,7 @@
 !.devcontainer/entrypoint.sh
 !.devcontainer/.zshrc
 !.github/devcontainer/build_superbuild.sh
+!.github/choreonoid
 .vscode/
 .git/
 .gitignore/
